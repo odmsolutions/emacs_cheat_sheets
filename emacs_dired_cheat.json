@@ -1,0 +1,46 @@
+{
+    "title":"Emacs dired Cheat Sheet",
+    "Author":"Danny Staple",
+    "Description": "Cheats for the dired file editing/browsing/viewing mode in emacs",
+    "cheats": {
+	"Columns": [{
+	    "Navigation": [
+		["g",	  "Refresh view"],
+		["Enter", "Open the file/dir"],
+		["a",	  "Navigate/open in same buffer"],
+		["C-x,C-j", "Jump to open file in dired"],
+		["q", 	    "Close the dir"],
+		["M-x dired", "Enter dired mode"],
+		["C-x,C-f &lt;dir-name&gt;", "Open directory in dired mode"],
+		["o", "Visit the file in a new window"],
+ 		["p/n", "Previous/next item"],
+		["Arrow keys", "Navigate in direction"],
+		["^", "Go to parent directory"]],
+            "File manipulation": [
+		["R", "Rename selection."],
+		["C", "Copy selection"],
+		["M", "Chmod selection"],
+		["O", "Chown selection"],
+		["G", "Chgrp selection"],
+		["D", "Delete the file immediately"],
+		["+", "Create a directory"],
+		["Z", "Compress/decompress with gzip"],
+		["!", "Execute a shell command on current file or dir"]]
+	},{
+	    "Flagged file operations": [
+		["d", "Flag for later deletion"],
+		["u", "Unflag file"],
+		["#", "Flag autosaved files"],
+		["x", "Delete flagged files"],
+		["~", "Flag all backup files"],
+		[".", "Flag extra numeric files"]],
+	    "Marking files for operations": [
+		["m", "Mark a file"],
+		["u", "Unmark"],
+		["U", "Unmark all"],
+		["% m", "Mark by regular expression"]]
+	}]}
+}
+
+
+

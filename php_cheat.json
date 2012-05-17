@@ -1,0 +1,46 @@
+{
+    "title":"Emacs Php Cheat Sheet",
+    "Author":"Danny Staple",
+    "Description": "Cheat sheet for Php editing in emacs",
+    "cheats": {
+	"Columns": [
+	    {
+		"Basics" : [
+		    ["M-x linum-mode", "Show line numbering."],
+		    ["C-x C-s", "Save current buffer"],
+		    ["C-x f", "Open file"],
+		    ["C-x k", "Close buffer"],
+		    ["C-x C-c", "Close emacs"]
+		],
+		"Navigation": [
+		    ["C-M-a", "Go to the top of function/class"],
+		    ["C-M-e", "Go to bottom of function/class"],
+		    ["C-M-f / C-left", "Next expression/block"],
+		    ["C-M-b / C-right", "Prev expression/block"],
+		    ["M-m", "Start of text (past indents)"],
+		    ["M-g g", "Go to line"]
+		],
+		"Manipulation": [
+		    ["C-M-\\", "Indent region"],
+		    ["M-;", "Toggle comment region/make comment"],
+		    ["C-c C-c", "Comment region(includes sub comments)"],
+		    ["M-x replace-string", "Search replace"],
+		    ["M-/", "Autocomplete current word"]
+		]
+	    }, {
+		"Advanced": [
+		    ["C-c C-l", "Toggle active characters - tabs, comments etc"],
+		    ["C-q", "Quote next character without acting"],
+		    ["M-x shell", "Summon a shell (look at shell mode help for more)"]
+		],
+		"Documentation": [
+		    ["C-c C-m / C-c RET", "Browse PHP manual in browser"],
+		    ["C-c C-f", "Search PHP manual with identifier"]
+		],
+		"Git": [
+		    ["C-x v d", "View SCM status"],
+		    ["C-x v v", "Commit current buffer (C-c C-c to accept message"]
+		]
+	}]
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "title":"Emacs Python Cheat Sheet",
+    "Author":"Danny Staple",
+    "Description": "Cheats for Python editing in emacs",
+    "cheats": {
+	"Columns": [{
+	    "Basics" : [
+		["M-x linum-mode", "Show line numbering."]
+	    ],
+	    "Advanced": [
+		["C-c C-l", "Toggle active characters - tabs, comments etc"],
+		["C-q", "Quote next character without acting"]
+	    ]
+	}]
+    }
+}
