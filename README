@@ -1,0 +1,2 @@
+Source for a set of emas cheat sheets.
+Use generate.py <json_source >html_output to get the sheets.
